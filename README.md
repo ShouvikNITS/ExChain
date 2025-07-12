@@ -41,15 +41,19 @@ Name: SUBHAJYOTI DEY	;  Mail ID: subhajyoti_ug_23@cse.nits.ac.in
 
 ## 🔄 Workflow Diagram
 
-```mermaid
-graph TD
-A[Landing Page] --> B[Sign Up / Log In]
-B --> C[Dashboard]
-C --> D[List New Item]
-C --> E[Browse Items]
-E --> F[Swap Request or Redeem via Points]
-F --> G[Delivery & Confirmation]
-G --> H[Leave Feedback & Earn Points]
+[Landing Page]
+       ↓
+[Sign Up / Log In]
+       ↓
+    [Dashboard]
+     ↙      ↘
+[List Item] [Browse Items]
+                  ↓
+ [Swap Request or Redeem]
+                  ↓
+       [Delivery & Confirm]
+                  ↓
+         [Leave Feedback]
 
 
 
