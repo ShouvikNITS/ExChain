@@ -1,98 +1,73 @@
-Problem Statement : ReWear – Community Clothing Exchange
+# Welcome to your Lovable project
 
+## Project info
 
-Team Member Names & Mail ID:
-Name: PRANTIC DEV NATH  ;  Mail ID: prantic_ug_23@mech.nits.ac.in
-Name: SHOUVIK PAUL	    ;  Mail ID: shouvik_ug_23@ece.nits.ac.in
-Name: SUBHAJYOTI DEY	;  Mail ID: subhajyoti_ug_23@cse.nits.ac.in
+**URL**: https://lovable.dev/projects/4b42541b-0104-4742-8fcc-1aa3102b86f4
 
-## Our Website Name is ExChain
+## How can I edit this code?
 
-# 👕 ExChain – Smart Community Clothing Exchange Platform
+There are several ways of editing your application.
 
-**ExChain** is a sustainable, web-based platform that empowers users to exchange unused or gently-used clothing through **direct swaps** or a **point-based redemption system**. Designed to encourage conscious consumption and reduce textile waste, ExChain fosters a vibrant, eco-friendly community.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/4b42541b-0104-4742-8fcc-1aa3102b86f4) and start prompting.
 
-## 🌟 Key Features
+Changes made via Lovable will be committed automatically to this repo.
 
-### 👤 User Functions
-- **User Registration & Login** (Secure auth via Email/Password)
-- **User Dashboard**
-  - View profile, points, and listed items
-  - Track swap history and ongoing exchanges
-- **List Clothing Items**
-  - Upload images, describe clothing (size, category, condition, tags)
-- **Explore Listings**
-  - Browse and filter based on size, type, condition, or style
-- **Two Exchange Modes**
-  - 🔁 **Direct Swap**: Offer your item in return for another
-  - 💰 **Point Redemption**: Earn & use ExChain Points to claim items
-- **Ratings & Feedback**
-  - Give/receive reviews after swaps for trust-building
+**Use your preferred IDE**
 
-### 🧑‍💼 Admin Functions
-- Approve or reject item listings
-- Monitor spam or flagged items
-- View swap statistics, user activity, and point transactions
-- Manage announcements and platform rules
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 🔄 Workflow Diagram
+Follow these steps:
 
-[Landing Page]
-       ↓
-[Sign Up / Log In]
-       ↓
-    [Dashboard]
-     ↙      ↘
-[List Item] [Browse Items]
-                  ↓
- [Swap Request or Redeem]
-                  ↓
-       [Delivery & Confirm]
-                  ↓
-         [Leave Feedback]
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
+# Step 3: Install the necessary dependencies.
+npm i
 
-
-
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Edit a file directly in GitHub**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Use GitHub Codespaces**
 
-## Learn More
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-To learn more about Next.js, take a look at the following resources:
+## What technologies are used for this project?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is built with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## Deploy on Vercel
+## How can I deploy this project?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Simply open [Lovable](https://lovable.dev/projects/4b42541b-0104-4742-8fcc-1aa3102b86f4) and click on Share -> Publish.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
